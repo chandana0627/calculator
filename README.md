@@ -25,12 +25,14 @@ To run the calculator locally, follow these steps:
 
 ## Clone the repository using Git:
 
-``` git clone https://github.com/your-username/calculator.git
+```
+ git clone https://github.com/your-username/calculator.git ```
 
 
 ## Navigate into the project directory:
 
-cd calculator
+```
+cd calculator ```
 
 Change into the directory where the repository was cloned.
 
