@@ -1,0 +1,45 @@
+.text-center{
+  text-align: center;
+  background-color:aliceblue ;
+}
+
+.bg-red{
+  background: hwb(0 0% 0%);
+}
+
+.mx-auto{
+  margin: auto;
+
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+.button {
+  background-color: #86989b; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background-color 0.2s; /* Add transition effect */
+}
+
+.button:hover {
+  background-color: #0fc8d2; /* Darker green background on hover */
+}
+
+.button:active {
+  background-color: #4ca0af; /* Green background on active */
+  transform: translateY(2px); /* Add a slight translation on click */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow on click */
+}
